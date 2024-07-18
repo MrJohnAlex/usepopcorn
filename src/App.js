@@ -349,7 +349,7 @@ function WatchedSummary({ watchMovies }) {
   }
   const avgImdbRating = average(watchMovies.map((movie) => movie.imdbRating));
   const avgUserRating = average(watchMovies.map((movie) => movie.userRating));
-  const avgRunTime = average(watchMovies.map((movie) => movie.runTime));
+  // const avgRunTime = average(watchMovies.map((movie) => movie.runTime));
   return (
     <div className="summary">
       <h2>Movies you watched</h2>
